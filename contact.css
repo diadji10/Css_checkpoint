@@ -1,0 +1,65 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.gotop{
+    font-weight: bolder;
+    color: blue;
+}
+body{
+    background-color: rgb(176, 138, 88);
+}
+header{
+    height: 50px;
+    width: 60%;
+    padding: 20px;
+    background-color:antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+}
+header nav{
+    display: inline-block;
+}
+header nav a{
+    font-size: 20px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(12, 4, 4);
+}
+
+header nav a:hover{
+    color: rgb(1, 19, 19);
+    font-weight: bolder;
+    border-bottom: 4px solid black;
+    font-style: italic;
+}
+footer{
+    height: 130px;
+    width: 600px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
+}
+
+footer a{
+    color: black;
+    font-weight: bolder;
+}
+.contact{
+    height: 150px;
+    width: 300px;
+    background-color: antiquewhite;
+    margin: auto;
+    border-radius: 20px;
+}
+.contact h2{
+    text-align: center;
+}

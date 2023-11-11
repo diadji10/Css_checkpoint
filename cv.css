@@ -1,0 +1,233 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.gotop{
+    font-weight: bolder;
+    color: blue;
+}
+body{
+    background-color: rgb(176, 138, 88);
+}
+header{
+    height: 50px;
+    width: 60%;
+    padding: 20px;
+    background-color:antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+}
+header nav{
+    display: inline-block;
+}
+header nav a{
+    font-size: 20px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(12, 4, 4);
+}
+
+header nav a:hover{
+    color: rgb(1, 19, 19);
+    font-weight: bolder;
+    border-bottom: 4px solid black;
+    font-style: italic;
+}
+footer{
+    height: 130px;
+    width: 600px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
+}
+footer a{
+    color: black;
+    font-weight: bolder;
+}
+main{
+    border-radius: 20px;
+    height: 1000px;
+    width: 800px;
+    border: 1px solid black;
+    box-shadow: 1PX 1PX 8PX black;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    position: relative;
+    height: 90%;
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.gauche{
+    flex:1.5;
+    height: 100%;
+    background-color: rgb(140, 118, 89);
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+}
+h2{
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(48, 37, 24);
+}
+.profil p{
+    text-align: center;
+    font-size: 12px;
+    color: aliceblue;
+}
+
+.compétences p{
+    text-align: left;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.langues p{
+    text-align: left;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: bolder}
+.lignefr, .ligneen{
+    bottom: 20px;
+    left: 100px;
+    position: relative;
+    height: 5px;
+    width: 60%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.evfr{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(108, 79, 11);
+    border-radius: 10px;
+}
+.even{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(108, 79, 11);
+    border-radius: 10px;
+}
+.photo{
+    flex: 0.8;
+}
+.profil{
+    flex: 0.7;
+}
+.langues{
+    flex: 1;
+}
+.lignemaths, .lignedev, .ligneex{
+    bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    height: 5px;
+    width: 55%;
+    background-color: lightgray;
+    left: 130px;
+}
+.evmaths{
+    border-radius: 10px;
+    height: 100%;
+    width: 70%;
+    background-color:  rgb(108, 79, 11);
+}
+.evdev{
+    border-radius: 10px;
+    height: 100%;
+    width: 90%;
+    background-color: rgb(108, 79, 11);
+}
+.evex{
+    border-radius: 10px;
+    height: 100%;
+    width: 60%;
+    background-color: rgb(108, 79, 11);
+}
+.compétences{
+    flex: 1;
+}
+
+.personnalité{
+    flex:1;
+}
+.personnalité p{
+    text-align: left;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.lignecrea, .ligneser, .lignelead{
+    position: relative;
+    height: 5px;
+    width: 55%;
+    background-color: lightgray;
+    left: 100px;
+    bottom: 20px;
+    border-radius: 20px;
+}
+.evcrea{
+    height: 100%;
+    width: 80%;
+    background-color:rgb(108, 79, 11) ;
+    border-radius: 20px;
+}
+.evser{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(108, 79, 11) ;
+    border-radius: 20px;
+}
+.evlead{
+    height: 100%;
+    width: 20%;
+    background-color:rgb(108, 79, 11) ;
+    border-radius: 20px;
+}
+.droite{
+    flex:2;
+    height: 100%;
+    background-color: white;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h3, h5{
+    text-align: center;
+}
+.haut{
+    width: 100%;
+    flex: 1;
+}
+.bas{
+    width: 100%;
+    flex: 2;
+
+}
+.bas h1{
+    text-align: center;
+    color: rgb(87, 64, 5);
+}
+.bas ul{
+    list-style: circle;
+}
